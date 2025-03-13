@@ -13,7 +13,7 @@ st.set_page_config(page_title='SOUMYA-Text SummarizationApp')
 st.image("shinchan.jpg")  # Adjust width as needed
 st.divider()  # 👈 Draws a horizontal rule
 st.title('🦜🔗 Text Summarization App')
-st.divider()  # 👈 Draws a horizontal rule
+st.divider()  # 👈 Draws a horizontal rule 
 # get API Key
 client = Groq(
     api_key=st.secrets["GROQ_API_KEY"],
